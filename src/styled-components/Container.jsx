@@ -1,30 +1,47 @@
 import styled from 'styled-components';
 
-const ContainerFirstPage = styled.div`
-    width:100;
-    height:100px;
-    background-color:rgba(255, 244, 217, 1);
-`
-
-const HeaderContainer= styled.div`
-    width: 100%;
-    height: 100%;
-    flex-shrink: 0;   
-    background-color: rgba(169, 105, 31, 0.3)
-;
+export const Container = styled.div`
+display:flex;
+justify-content:center;
 `;
 
-const HeaderImageContainer= styled.div`
-    width: 100%;
-    height: 100%;
-    transform: rotate()(-89.75deg);
-    transform-origin:0 0;
+export const MainContainer = styled.div`
+
 `;
 
-const SecondContainer = styled.div`
-    width:60%;
+export const TopContainer = styled.div`
+    display:flex;
+    justify-content:center;
+    margin-bottom:150px;
+`;
+
+export const InfoContainer = styled.div`
+    display:flex;
+    justify-content:center;
+`;
+
+
+export const TextContainer = styled.div`
+    width:1033px;
+    height:66px;
+    margin-top:82px;
+    margin-bottom:40px;
     background-color:rgba(253, 226, 158, 1);
-    border-radius:10;
-
+    border-radius: 10px;
 `;
-export{ContainerFirstPage,HeaderContainer, HeaderImageContainer,SecondContainer };
+
+export const ContainerCard = styled.div`
+    width:218px;
+    height:320px;
+    background-color:rgba(255, 253, 250, 1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius:20px;
+    margin-top:40px;
+`;
+export const ContainerImage = styled.img`
+    width:168px;
+    height:145px;
+    border:2.50px solid #F3C98A ;
+    margin-top:45px;
+    margin-left:24px;
+`;
