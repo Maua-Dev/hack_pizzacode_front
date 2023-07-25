@@ -33,7 +33,7 @@ export const Main = () =>{
             <QueijosCardsRow></QueijosCardsRow>
             <InfoContainer>
                 <TextContainer>
-                <Text>{"Escolha o seu "}<BoldWord>{ "Queijo !"}</BoldWord></Text>
+                <Text>{"Escolha o seu "}<BoldWord>{ "Recheio !"}</BoldWord></Text>
                 </TextContainer>
             </InfoContainer>
             < RecheioCardsRow></ RecheioCardsRow>

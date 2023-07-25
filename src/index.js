@@ -1,13 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './App.css';
-import App from './App';
+import Menu from './Menu';
 import reportWebVitals from './reportWebVitals';
+// import Order from './Order';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Menu />
   </React.StrictMode>
 );
 
