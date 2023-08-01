@@ -1,9 +1,6 @@
 
-import { ButtonRow } from "../styled-components/ButtonLayour"
-import { MainContainerOrder } from "../styled-components/Container"
-import {HeaderTextOrder} from "../styled-components/Text"
-import { ListIngredients } from "../styled-components/ListLayout"
-
+import { MainContainerOrder, HeaderTextOrder, ButtonRow } from "./OrderStyles"
+import { ListIngredients } from "../../styled-components/ListLayout"
 
 
 export const MainOrder = () =>{

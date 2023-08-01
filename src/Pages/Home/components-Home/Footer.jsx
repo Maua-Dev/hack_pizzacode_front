@@ -1,6 +1,7 @@
-import {FlexAdressContainer, FooterContainer, InformationFooter, TextFooterContainer,AdressContainer } from "../styled-components/Container";
-import { FooterText, AdressTextFooter, TelTextFooter} from "../styled-components/Text";
-import { FacebookIcon, InstagramIcon, TwitterIcon, TelephoneIcon,WhatsAppIcon } from "./Icons";
+import { FlexColums} from "../../../styled-components/GlobalStyles";
+import { AdressContainer,BoxFooter,FooterContainer,BoxIcon,TextFooterBox  } from "../HomeStyles";
+import {AdressTextFooter,TelTextFooter, FooterText } from "../HomeStyles";
+import {TelephoneIcon,WhatsAppIcon, Icons } from "./Icons";
 
 
 
@@ -25,24 +26,23 @@ export const Footer = () =>{
 
     return(
         <FooterContainer style={{backgroundColor:"rgba(253, 226, 158, 1)"}}>
-            <InformationFooter style={{backgroundColor:"rgba(255, 235, 186, 1)"}}>
-                    <TextFooterContainer style={{backgroundColor:"rgba(254, 245, 224, 1)", margin: "8px"}}>
+            <BoxFooter  style={{backgroundColor:"rgba(255, 235, 186, 1)"}}>
+                    <TextFooterBox style={{backgroundColor:"rgba(254, 245, 224, 1)", margin: "8px"}}>
                     <FooterText>{"Nossas unidades"}</FooterText>
-                    </TextFooterContainer>
-                    <FlexAdressContainer>
+                    </TextFooterBox>
+                    <FlexColums>
                         <ContactFooter textoUnidade={"Unidade Santo André"} textoTelefone={"(11) 9999-9999"} textoCel={"(11) 9999-9999"}></ContactFooter>
                         <ContactFooter textoUnidade={"Unidade Santo André"} textoTelefone={"(11) 9999-9999"} textoCel={"(11) 9999-9999"}></ContactFooter>
                         <ContactFooter textoUnidade={"Unidade Santo André"} textoTelefone={"(11) 9999-9999"} textoCel={"(11) 9999-9999"}></ContactFooter>
-                    </FlexAdressContainer>
-            </InformationFooter >
-            <InformationFooter style={{backgroundColor:"rgba(255, 235, 186, 1)", width:"324px"}}>
-                    <TextFooterContainer style={{backgroundColor:"rgba(254, 245, 224, 1)", margin: "8px", width:"292px"}}>
+                        <ContactFooter textoUnidade={"Unidade Santo André"} textoTelefone={"(11) 9999-9999"} textoCel={"(11) 9999-9999"}></ContactFooter>
+                    </FlexColums>
+            </BoxFooter >
+            <BoxIcon>
+                    <TextFooterBox style={{backgroundColor:"rgba(254, 245, 224, 1)", margin: "8px"}}>
                     <FooterText>{"Siga-nos"}</FooterText>
-                    </TextFooterContainer>
-                    <FlexAdressContainer>
-                       <FacebookIcon/><InstagramIcon/><TwitterIcon/>
-                    </FlexAdressContainer>
-            </InformationFooter >
+                    </TextFooterBox>
+                    <Icons/>
+            </BoxIcon>
         </FooterContainer>
 
     );

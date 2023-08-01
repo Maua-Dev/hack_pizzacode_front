@@ -1,14 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './App.css';
-import Menu from './Menu';
 import reportWebVitals from './reportWebVitals';
-// import Order from './Order';
+import { BrowserRouter as Router} from 'react-router-dom';
+import AppRouter from './AppRouter';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Menu />
+    <Router>
+      <AppRouter />
+    </Router>
   </React.StrictMode>
 );
 

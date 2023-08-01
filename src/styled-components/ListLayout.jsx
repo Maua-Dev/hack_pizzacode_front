@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { IngrientsListText, IngredientsTextOrder } from './Text';
+import { IngrientsListText, IngredientsTextOrder } from '../Pages/Order/OrderStyles';
 
 const FlexColum = styled.div`
   display: flex;
