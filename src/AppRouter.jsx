@@ -1,6 +1,5 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
-import App from './App';
 import MainAdm from './Pages/MainAdm';
 import Janeiro from './Pages/Janeiro';
 import Fevereiro from './Pages/Fevereiro';
@@ -17,12 +16,19 @@ import Dezembro from './Pages/Dezembro';
 import Estoque from './Pages/Estoque';
 import Pagamentos from './Pages/Pagamentos';
 import Financeiro from './Pages/Financeiro';
+import Home from '././Pages/Home/Home';
+import Menu from './Pages/Menu/Menu';
+import Order from '././Pages/Order/Order';
+import QRCode from "./Pages/QRCode/QRCode";
 
 
 export default function AppRouter() {
   return (
     <Routes>
-      <Route path="/" element={<App/>} />
+      <Route path="/" element={<Home/>}/>
+      <Route path="/Menu" element={<Menu/>}/>
+      <Route path="/Order" element={<Order/>}/>
+      <Route path="/QRCode" element={<QRCode/>}/>
       <Route path="/MainAdm" element={<MainAdm/>} />
       <Route path="/Janeiro" element={<Janeiro />} />
       <Route path="/Fevereiro" element={<Fevereiro />} />

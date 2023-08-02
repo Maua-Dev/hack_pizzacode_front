@@ -9,6 +9,13 @@
   body{
     background-color: rgba(255, 244, 217, 1);
   }
+
+
+  ul {
+      list-style-type: circle;
+      /* outros estilos que você queira adicionar à lista */
+    }
+  
   @font-face{
     font-family: "Montserrat";
     src: url("fonts/Montserrat-Bold.ttf") format("true-type"); 
@@ -22,6 +29,14 @@
     font-style: normal;
     font-display: swap;
   };
+
+  @font-face{
+    font-family: "Montserrat";
+    src: url("fonts/Montserrat-Medium.ttf") format("true-type"); 
+    font-style: 'medium';
+    font-display: swap;
+  };
+  
 
   @font-face{
     font-family: "Montserrat";
