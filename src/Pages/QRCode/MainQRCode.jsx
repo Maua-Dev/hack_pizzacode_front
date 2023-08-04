@@ -20,13 +20,13 @@ export const MainQRCode = () =>{
     var vir = ", ";
     var ee = " e ";
 
-   {if (pizzaName !== ""){
+   if (pizzaName !== ""){
     var pedido = pizzaName
    }
     else{
         pedido = pizzaName +molhoSauce + vir + queijoCheese + ee + recheioFilling
     }
-    }
+    
 
         return (
             <MainContainerQRCODE>
