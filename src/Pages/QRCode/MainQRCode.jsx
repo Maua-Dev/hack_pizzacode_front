@@ -24,7 +24,7 @@ export const MainQRCode = () =>{
     var pedido = pizzaName
    }
     else{
-        var pedido = pizzaName +molhoSauce + vir + queijoCheese + ee + recheioFilling
+        pedido = pizzaName +molhoSauce + vir + queijoCheese + ee + recheioFilling
     }
     }
 
