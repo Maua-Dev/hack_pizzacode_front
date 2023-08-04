@@ -1,6 +1,6 @@
 import styled from 'styled-components';
-import { WidgetIngredientes } from './components-Menu/WidgetIngredientes';
-import { Ingredientes } from '../Home/components-Home/Sabores';
+// import { WidgetIngredientes } from './components-Menu/WidgetIngredientes';
+// import { Ingredientes } from '../Home/components-Home/Sabores';
 
 // Layout
 
@@ -54,7 +54,7 @@ export const Text = styled.p`
 
 // Rows Ingredients
 
-const FlexIngredientesRow = styled.div`
+export const FlexIngredientesRow = styled.div`
   display: flex;
   align-items: center;
   justify-content: start;
@@ -114,48 +114,48 @@ export const FinalizarText = styled.p`
     
 `;
 
-// components
+// // components
 
-export const MolhoWidgetsRow = () => {
-    return (
-      <FlexIngredientesRow>
-        {Ingredientes.molhos.map((molhos, index) => (
-          <WidgetIngredientes key={index} texto={molhos.nome} imagem={molhos.tipo} />
-        ))}
-      </FlexIngredientesRow>
-    );
-  };
+// export const MolhoWidgetsRow = () => {
+//     return (
+//       <FlexIngredientesRow>
+//         {Ingredientes.molhos.map((molhos, index) => (
+//           <WidgetIngredientes key={index} texto={molhos.nome} imagem={molhos.tipo} />
+//         ))}
+//       </FlexIngredientesRow>
+//     );
+//   };
   
-  export const QueijosWidgetsRow = () => {
-    return (
-      <FlexIngredientesRow>
-        {Ingredientes.queijo.map((queijo, index) => (
-          <WidgetIngredientes key={index} texto={queijo.nome} imagem={queijo.tipo} />
-        ))}
-      </FlexIngredientesRow>
-    );
-  };
+//   export const QueijosWidgetsRow = () => {
+//     return (
+//       <FlexIngredientesRow>
+//         {Ingredientes.queijo.map((queijo, index) => (
+//           <WidgetIngredientes key={index} texto={queijo.nome} imagem={queijo.tipo} />
+//         ))}
+//       </FlexIngredientesRow>
+//     );
+//   };
   
-  export const RecheioWidgetsRow = () => {
-    const startIndexRow = 0;
-    const endIndexRow = 4;
-    const startIndexSecondRow = 4;
-    const endIndexSecondRow = 8;
-    return (
-      <>
-      <FlexIngredientesRow>
-        {Ingredientes.recheio.slice(startIndexRow,endIndexRow).map((recheio, index) => (
-          <WidgetIngredientes key={index} texto={recheio.nome} imagem={recheio.tipo} />
-        ))}
-      </FlexIngredientesRow>
-      <FlexIngredientesRow>
-        {Ingredientes.recheio.slice(startIndexSecondRow,endIndexSecondRow).map((recheio, index) => (
-          <WidgetIngredientes key={index} texto={recheio.nome} imagem={recheio.tipo} />
-          ))}
-      </FlexIngredientesRow>
-      </>
-    );
-  };
+//   export const RecheioWidgetsRow = () => {
+//     const startIndexRow = 0;
+//     const endIndexRow = 4;
+//     const startIndexSecondRow = 4;
+//     const endIndexSecondRow = 8;
+//     return (
+//       <>
+//       <FlexIngredientesRow>
+//         {Ingredientes.recheio.slice(startIndexRow,endIndexRow).map((recheio, index) => (
+//           <WidgetIngredientes key={index} texto={recheio.nome} imagem={recheio.tipo} />
+//         ))}
+//       </FlexIngredientesRow>
+//       <FlexIngredientesRow>
+//         {Ingredientes.recheio.slice(startIndexSecondRow,endIndexSecondRow).map((recheio, index) => (
+//           <WidgetIngredientes key={index} texto={recheio.nome} imagem={recheio.tipo} />
+//           ))}
+//       </FlexIngredientesRow>
+//       </>
+//     );
+//   };
 
 
 

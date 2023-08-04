@@ -23,11 +23,12 @@ const ListItem = styled.li`
     }
 `;
 
-export const ListIngredients = ({Molho, Queijo, Queijo2,Recheio, Recheio2 }) =>{
+export const ListIngredients = ({Nome,Molho, Queijo, Queijo2,Recheio, Recheio2 }) =>{
     return(
         <FlexColum>
         <IngredientsTextOrder>{"Ingredientes :"}</IngredientsTextOrder>
         <List>
+             <ListItem>{Nome && <IngrientsListText>{Nome}</IngrientsListText>}</ListItem>
             <ListItem>{Molho && <IngrientsListText>{Molho}</IngrientsListText>}</ListItem>
             <ListItem>{Queijo && <IngrientsListText>{Queijo}</IngrientsListText>}</ListItem>
             <ListItem>{Queijo2 && <IngrientsListText>{Queijo2}</IngrientsListText>}</ListItem>
