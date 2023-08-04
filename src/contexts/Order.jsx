@@ -9,6 +9,7 @@ export function OrderProvider({children}){
     const[pizza, setPizza] = useState({
         name: '',
     });
+    
     const[customMolho, setCustomMolho] = useState({
         sauce: '',
     })

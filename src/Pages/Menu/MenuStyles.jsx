@@ -64,6 +64,7 @@ export const FlexIngredientesRow = styled.div`
   @media only screen and (max-width:767px){
     /* Small Devices, Tablets */
     justify-content:center;
+    margin-bottom:20px;
   }
 
 `;
@@ -84,6 +85,7 @@ export const FinalizarButton = styled.button`
       /* Small Devices, Tablets */
         height:60px;
         width:200px;
+        margin:auto;
     }
 
     cursor:pointer;
@@ -113,50 +115,6 @@ export const FinalizarText = styled.p`
 }
     
 `;
-
-// // components
-
-// export const MolhoWidgetsRow = () => {
-//     return (
-//       <FlexIngredientesRow>
-//         {Ingredientes.molhos.map((molhos, index) => (
-//           <WidgetIngredientes key={index} texto={molhos.nome} imagem={molhos.tipo} />
-//         ))}
-//       </FlexIngredientesRow>
-//     );
-//   };
-  
-//   export const QueijosWidgetsRow = () => {
-//     return (
-//       <FlexIngredientesRow>
-//         {Ingredientes.queijo.map((queijo, index) => (
-//           <WidgetIngredientes key={index} texto={queijo.nome} imagem={queijo.tipo} />
-//         ))}
-//       </FlexIngredientesRow>
-//     );
-//   };
-  
-//   export const RecheioWidgetsRow = () => {
-//     const startIndexRow = 0;
-//     const endIndexRow = 4;
-//     const startIndexSecondRow = 4;
-//     const endIndexSecondRow = 8;
-//     return (
-//       <>
-//       <FlexIngredientesRow>
-//         {Ingredientes.recheio.slice(startIndexRow,endIndexRow).map((recheio, index) => (
-//           <WidgetIngredientes key={index} texto={recheio.nome} imagem={recheio.tipo} />
-//         ))}
-//       </FlexIngredientesRow>
-//       <FlexIngredientesRow>
-//         {Ingredientes.recheio.slice(startIndexSecondRow,endIndexSecondRow).map((recheio, index) => (
-//           <WidgetIngredientes key={index} texto={recheio.nome} imagem={recheio.tipo} />
-//           ))}
-//       </FlexIngredientesRow>
-//       </>
-//     );
-//   };
-
 
 
 
