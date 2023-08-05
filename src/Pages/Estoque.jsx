@@ -53,91 +53,91 @@ const Estoque = () => {
       <div className="image-gallery">
           <div className="image-item">
             <div className="container-imagem">
-              <img src={Atum} alt="Image 1" className="image" />
+              <img src={Atum} alt="" className="image" />
               <div className="image-text">ATUM</div>
             </div>
           </div>
           <div className="image-item">
             <div className="container-imagem">
-              <img src={Azeitona} alt="Image 2" className="image" />
+              <img src={Azeitona} alt="" className="image" />
               <div className="image-text">AZEITONA</div>
             </div>
           </div>
           <div className="image-item">
             <div className="container-imagem">
-              <img src={Catupiry} alt="Image 3" className="image" />
+              <img src={Catupiry} alt="" className="image" />
               <div className="image-text">CATUPIRY</div>
             </div>
           </div>
           <div className="image-item">
             <div className="container-imagem">
-              <img src={Cebola} alt="Image 4" className="image" />
+              <img src={Cebola} alt="" className="image" />
               <div className="image-text">CEBOLA</div>
             </div>
           </div>
           <div className="image-item">
             <div className="container-imagem">
-              <img src={Frango} alt="Image 5" className="image" />
+              <img src={Frango} alt="" className="image" />
               <div className="image-text">FRANGO</div>
             </div>
           </div>
           <div className="image-item">
             <div className="container-imagem">
-              <img src={Gorgonzola} alt="Image 6" className="image" />
+              <img src={Gorgonzola} alt="" className="image" />
               <div className="image-text">GORGONZOLA</div>
             </div>
           </div>
           <div className="image-item">
             <div className="container-imagem">
-              <img src={MolhoPicante} alt="Image 7" className="image" />
+              <img src={MolhoPicante} alt="" className="image" />
               <div className="image-text">MOLHO PICANTE</div>
             </div>
           </div>
           <div className="image-item">
             <div className="container-imagem">
-              <img src={MolhoTomate} alt="Image 8" className="image" />
+              <img src={MolhoTomate} alt="" className="image" />
               <div className="image-text">MOLHO DE TOMATE</div>
             </div>
           </div>
           <div className="image-item">
             <div className="container-imagem">
-              <img src={Mussarela} alt="Image 9" className="image" />
+              <img src={Mussarela} alt="" className="image" />
               <div className="image-text">MUSSARELA</div>
             </div>
           </div>
           <div className="image-item">
             <div className="container-imagem">
-              <img src={OvoCozido} alt="Image 10" className="image" />
+              <img src={OvoCozido} alt="" className="image" />
               <div className="image-text">OVO COZIDO</div>
             </div>
           </div>
           <div className="image-item">
             <div className="container-imagem">
-              <img src={Parmesao} alt="Image 11" className="image" />
+              <img src={Parmesao} alt="" className="image" />
               <div className="image-text">PARMESSÃO</div>
             </div>
           </div>
           <div className="image-item">
             <div className="container-imagem">
-              <img src={Presunto} alt="Image 12" className="image" />
+              <img src={Presunto} alt="" className="image" />
               <div className="image-text">PRESUNTO</div>
             </div>
           </div>
           <div className="image-item">
             <div className="container-imagem">
-              <img src={Provolone} alt="Image 13" className="image" />
+              <img src={Provolone} alt="" className="image" />
               <div className="image-text">PROVOLONE</div>
             </div>
           </div>
           <div className="image-item">
             <div className="container-imagem">
-              <img src={Tomate} alt="Image 14" className="image" />
+              <img src={Tomate} alt="" className="image" />
               <div className="image-text">TOMATE</div>
             </div>
           </div>
           <div className="image-item">
             <div className="container-imagem">
-              <img src={TomateSeco} alt="Image 15" className="image" />
+              <img src={TomateSeco} alt="" className="image" />
               <div className="image-text">TOMATE SECO</div>
             </div>
           </div>
