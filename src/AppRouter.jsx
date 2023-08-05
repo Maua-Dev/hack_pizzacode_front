@@ -20,12 +20,15 @@ import Home from '././Pages/Home/Home';
 import Menu from './Pages/Menu/Menu';
 import Order from '././Pages/Order/Order';
 import QRCode from "./Pages/QRCode/QRCode";
+import Loggin from './Pages/Loggin.jsx/Loggin';
 
 
 export default function AppRouter() {
   return (
     <Routes>
-      <Route path="/" element={<Home/>}/>
+      <Route path = "/" element={<Loggin/>}></Route>
+      <Route path= "/Home" element={<Home/>}></Route>
+      <Route path="/Loggin" element={<Loggin/>}/>
       <Route path="/Menu" element={<Menu/>}/>
       <Route path="/Order" element={<Order/>}/>
       <Route path="/QRCode" element={<QRCode/>}/>
